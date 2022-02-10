@@ -1,0 +1,452 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	list-style: none;
+}
+body{
+	background-color: #f8ebc7;
+}
+.site .satir{
+	width: 1024px;
+	margin: auto;
+	margin-top: 20px;
+	background-color: #c7aa70;
+	position:relative;
+}
+.site .satir .logo{
+	height: 100px;
+	position: relative;
+}
+.site .satir .logo h1{
+	font-family: cursive;
+	font-weight: bold;
+	color:black;
+	line-height: 100px;
+	text-align: center;
+}
+.site .satir .menu{
+	height: 50px;
+	position: relative;
+}
+.site .satir .menu ul li{
+	float:left;
+	margin-left: 2px;
+}
+.site .satir .menu ul li a{
+	font-family: cursive;
+	padding: 10px 10px;
+	color:black;
+	font-weight: bold;
+	line-height: 50px;
+}
+.temizle{
+	clear: both;
+}
+.site .satir .main{
+	width: 1024px;
+	height: 650px;
+
+}
+.site .satir .main > .anasayfa{
+	width: 590px;
+	margin-left: 40px;
+	margin-right: 20px;
+	float:left; 
+}
+.site .satir .main .anasayfa >  h2{
+	color:black;
+	font-family: cursive;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.site .satir .main .anasayfa > h6{
+	margin-top: 30px;
+	color:black;
+	text-align: center;
+	font-weight: bold;
+}
+.site .satir .main .anasayfa > a{
+	display: block;
+	background-color: #c61701;
+	text-align: center;
+	font-size: 30px;
+	color:white;
+	text-decoration: none;
+	font-weight: bold;
+	margin-top: 10px;
+	opacity: 0.8;
+}
+.site .satir .main .anasayfa > a:hover{
+	opacity: 1;
+}
+.site .satir .main > .login{
+	float: left;
+	width: 300px;
+	margin-left: 40px;
+	margin-right: 20px;
+	text-align: center;
+}
+.site .satir .main > .login h1{
+	color:black;
+	font-family: cursive;
+}
+.site .satir .main > .login label{
+	margin-top: 10px;
+}
+.site .satir .footer {
+	height: 50px;
+	
+}
+.site .satir .footer .copyright{
+	width: 480px;
+	float: left;
+	margin-left: 32px;
+}
+.site .satir .footer .copyright span{
+	color:black;
+	font-weight: bold;
+	font-family: cursive;
+	line-height: 50px;
+}
+.site .satir .footer .sosyalmedya{
+	width: 480px;
+	float: right;
+	text-align: right;
+	margin-right: 32px;
+}
+.site .satir .footer .sosyalmedya a{
+	line-height: 50px;
+}
+.site .satir .footer .sosyalmedya img {
+	width: 30px;
+	height: 30px;
+	margin-left: 10px;
+}
+.site .satir .oyunmenu{
+	height: 50px;
+	background-color: #c61701;
+}
+.site .satir .oyunmenu ul >li{
+	float: left;
+	margin-left: 10px;
+	text-align: center;
+}
+.site .satir .oyunmenu ul >li > a{
+	display: block;
+	padding: 0px 21px;
+	line-height: 50px;
+	color:white;
+	font-weight: bold;
+	font-family: cursive;
+	background-color: #c61701;
+	text-decoration: none;
+}
+.site .satir .oyunmenu ul > li > a:hover{
+	background-color: #f8ebc7;
+	color:black;
+}
+.site .satir .oyuncubilgi{
+	width: 1024px;
+	height: 30px;
+	background-color: #8f441e;
+}
+.site .satir .oyuncubilgi label{
+	line-height: 30px;
+	margin-left: 5px;
+}
+.site .satir .oyuncubilgi .oyuncu{
+	width: 300px;
+	float: left;
+	color:white;
+	text-align:center;
+}
+.site .satir .oyuncubilgi .koyadi{
+	width: 340px;
+	float: left;
+	color:white;
+	text-align: center;
+}
+.site .satir .oyuncubilgi .oyuncuham{
+	color:white;
+	text-align: center;
+}
+.site .satir .oyunalan{
+	width: 1024px;
+	height: 600px;
+	border:solid #8f441e 10px; 
+}
+.site .satir .oyunalan > .oyunsehir{
+	background-color: green;
+	width: 75%;
+	height: 100%;
+	float: left;
+}
+.site .satir .oyunalan > .oyunpanel{
+	width: 25%;
+	height: 100%;
+	background-color: #8f441e;
+	float: left;
+	color:white;
+	font-family: cursive;
+	font-weight: lighter;
+	text-align: center;
+}
+.site .satir .oyunalan > .oyunpanel ul{
+	margin-left: 10px;
+}
+.site .satir .oyunalan > .oyunpanel .pbaslik{
+	color:black;
+	background-color: #c7aa70;
+	height: 40px;
+	line-height: 40px;
+}
+.site .satir .oyunalan > .oyunpanel ul li{
+	border: #c7aa70 4px solid; 
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+.site .satir .oyunalan > .oyunpanel ul li label{
+	padding-left: 4px;
+}
+.site .satir .main .kayit{
+	width: 380px;
+	margin-right: 32px;
+	text-align: center;
+	font-weight: bold;
+	font-family: cursive;
+	color:black;
+	margin: auto;
+	padding-top: 10px;
+}
+.site .satir .main .kayit label{
+	margin-top: 5px;
+}
+.site .satir .main .kayit a{
+	margin-top: 20px;
+}
+.anabina{
+	width: 100px;
+	height: 50px;
+	color: white;
+	background-color: red;
+	text-align: center;
+	line-height: 50px;
+	outline: 4px solid white;
+	margin: auto;
+	position: relative;
+	top: 215px;
+	font-family: cursive;
+	font-weight: bolder;
+	font-size: 18px;
+	z-index: 1;
+	text-decoration: none;
+}
+.kisla{
+	width: 100px;
+	height: 50px;
+	color: white;
+	background-color: red;
+	text-align: center;
+	line-height: 50px;
+	outline: 4px solid white;
+	margin: auto;
+	position: relative;
+	left: 200px;
+	top:100px;
+	font-family: cursive;
+	font-weight: bolder;
+	font-size: 18px;
+	z-index: 1;
+	text-decoration: none;
+}
+.ahir{
+	width: 100px;
+	height: 50px;
+	color: white;
+	background-color: red;
+	text-align: center;
+	line-height: 50px;
+	outline: 4px solid white;
+	margin: auto;
+	position: relative;
+	top:50px;
+	right: 200px;
+	font-family: cursive;
+	font-weight: bolder;
+	font-size: 18px;
+	z-index: 1;
+	text-decoration: none;
+}
+.odun{
+	width: 100px;
+	height: 50px;
+	color: white;
+	background-color: red;
+	text-align: center;
+	line-height: 50px;
+	outline: 4px solid white;
+	margin: auto;
+	position: relative;
+	top: 100px;
+	right: 200px;
+	font-family: cursive;
+	font-weight: bolder;
+	font-size: 18px;
+	text-decoration: none;
+	z-index: 1;
+}
+.kil{
+	width: 100px;
+	height: 50px;
+	color: white;
+	background-color: red;
+	text-align: center;
+	line-height: 50px;
+	outline: 4px solid white;
+	margin: auto;
+	position: relative;
+	top:50px;
+	left: 200px;
+	font-family: cursive;
+	font-weight: bolder;
+	font-size: 18px;
+	z-index: 1;
+	text-decoration: none;
+}
+.demir{
+	width: 100px;
+	height: 50px;
+	color: white;
+	background-color: red;
+	text-align: center;
+	line-height: 50px;
+	outline: 4px solid white;
+	margin: auto;
+	position: relative;
+	top:80px;
+	font-family: cursive;
+	font-weight: bolder;
+	font-size: 14px;
+	z-index: 1;
+	text-decoration: none;
+}
+.depo{
+	width: 100px;
+	height: 50px;
+	color: white;
+	background-color: red;
+	text-align: center;
+	line-height: 50px;
+	outline: 4px solid white;
+	margin: auto;
+	position: relative;
+	bottom:200px;
+	font-family: cursive;
+	font-weight: bolder;
+	font-size: 14px;
+	text-decoration: none;
+	z-index: 1;
+}
+.duvar{
+	position: relative;
+	width: 700px;
+	height: 440px;
+	border:solid white 8px;
+	left: 30px;
+	bottom: 335px;
+	border-radius: 700px;
+	z-index: 0;
+}
+.oyunsehir > a{
+	text-decoration: none;
+}
+.oyunsehir >  a > div:hover{
+	outline: solid blue 4px;
+}
+.merkez{
+	width: 100%;
+	height: 600px;
+	border: solid #8f441e 10px;
+	margin-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.anabinalvl{
+	width: 100%;
+	height: 100%;
+}
+#merkeztbl {
+	background-color: #8f441e;
+	color:white;
+	border:none;
+	outline:#8f441e groove 10px;
+}
+.merkez > h3 {
+	color:black;
+	font-family: cursive;
+	font-weight: bold;
+	text-align: center;
+}
+#merkeztbl th  {
+	border: none;
+}
+#merkeztbl td  {
+	border: none;
+}
+.harita{
+	background-color: green;
+	width: 100%;
+	height: 500px;
+	border-radius: 20px;
+	text-align: center;
+}
+.harita > h1{
+	line-height: 500px;
+	font-family: cursive;
+	font-weight: bold;
+	font-size: 48px;
+	color:black;
+}
+.rapor{
+	width: 200px;
+	height: 200px;
+	background-color: #c61701;
+	margin-top: 30px;
+	border-radius: 20px;
+	float: left;
+	margin-right: 20px;
+	margin-left: 20px;
+	text-align: center;
+	border:solid #8f441e 4px;
+}
+.rapor:hover{
+transform: scale(1.2);
+transition: all 1s;
+}
+.rapor > h4{
+	color:white;
+	font-family: cursive;
+	font-weight: bold;
+	margin-top: 20px;
+}
+.rapor > h5{
+	color:black;
+	font-family: cursive;
+	font-weight: bold;
+	margin-top: 20px;
+}
+.rapor > h2{
+	color:black;
+	font-family: cursive;
+	font-weight: bold;
+	margin-top: 20px;
+}
+.sohbet{
+	text-align: center;
+	margin-top: 200px;
+	color:black;
+}
