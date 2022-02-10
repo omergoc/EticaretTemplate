@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>kaptantr | Kayıt Ol</title>
+    <title>kaptantr| İletişim</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -35,24 +35,18 @@
         </div>
     </div>
     <div class="site">
-        <div class="kayit">
-            <form action="kayit.php" method="GET">
-                <h1>Kayit Ol</h1>
-                    <h3>Kullanıcı Adı</h3>
-                    <input type="text" name="kullaniciadi" id=""><br>
-                    <h3>Şifre</h3>
-                    <input type="password" name="password" id=""><br>
-                    <h3>Ad Soyad</h3>
-                    <input type="text" name="adsoyad" id=""><br>
-                    <h3>E-posta</h3>
-                    <input type="email" name="mail" id=""><br>
-                    <h3>Telefon</h3>
-                    <input type="tel" name="telefon" id=""><br><br>
-                    <div id="kayitdiv">
-                        <br><br>
-                    <input type="submit" value="KAYIT OL" id="btnkayit">
-                    <br><br><br>
-                </div>
+        <div class="harita">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3011.4249767951096!2d29.0243312153361!3d40.99407062824795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab8696d12289b%3A0x6156d0680c2264cb!2zxLBTTUVLIEthZMSxa8O2eSBSYXNpbXBhxZ9hIE1lcmtlemk!5e0!3m2!1str!2str!4v1577224998873!5m2!1str!2str"
+             width="500" height="500" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </div>
+        <div class="form">
+            <form action="ilet.php" method="GET">
+                <h1>İletişim Formu</h1>
+                <input type="text" name="" id="" placeholder="Adınız"><br>
+                <input type="text" name="" id="" placeholder="Soyadınız"><br>
+                <input type="mail" name="" id="" placeholder="E-posta"><br>
+                <textarea name="" id="textarea" placeholder="Not" cols="30" rows="10"></textarea><br>
+                <input type="button" value="Gönder" id="iletbtn">
             </form>
         </div>
     <footer>

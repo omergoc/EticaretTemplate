@@ -1,452 +1,440 @@
-@charset "utf-8";
-/* CSS Document */
 *{
-	margin: 0;
-	padding: 0;
-	border: 0;
-	list-style: none;
+    margin: 0;
+    padding: 0;
+    border:0;
+    text-decoration: none;
+    list-style: none;
 }
-body{
-	background-color: #f8ebc7;
+header{
+    width: 100%;
+    text-align: right;
+    height: 30px;
+    border-top: solid #355C7D 6px;
 }
-.site .satir{
-	width: 1024px;
-	margin: auto;
-	margin-top: 20px;
-	background-color: #c7aa70;
-	position:relative;
+header div{
+    background-color:#355C7D ;
+    width:1024px;
+    margin: auto;
+    border-radius: 0px 0px 10px 10px;
 }
-.site .satir .logo{
-	height: 100px;
-	position: relative;
+header div a{
+    color:white;
+    margin-right: 10px;
+    line-height: 30px;
 }
-.site .satir .logo h1{
-	font-family: cursive;
-	font-weight: bold;
-	color:black;
-	line-height: 100px;
-	text-align: center;
+header div a:hover{
+    text-decoration: underline;
+    color:#F5D41E;
 }
-.site .satir .menu{
-	height: 50px;
-	position: relative;
+.headerdiv{
+    width: 100%;
+    height: 100px;
+    border-bottom: 6px solid #355C7D;
 }
-.site .satir .menu ul li{
-	float:left;
-	margin-left: 2px;
+#logosearch{
+    width: 1024px;
+    height: 100px;
+    margin: auto;
+    position: relative;
 }
-.site .satir .menu ul li a{
-	font-family: cursive;
-	padding: 10px 10px;
-	color:black;
-	font-weight: bold;
-	line-height: 50px;
+#logosearch img{
+    height: 80px;
+	width:100px;
+    position: absolute;
+    left: 0;
 }
-.temizle{
-	clear: both;
+#logosearch form{
+    position: absolute;
+    right:0;
+    bottom: 30px;
 }
-.site .satir .main{
-	width: 1024px;
-	height: 650px;
-
+#logosearch form input{
+    height: 40px;
+    border:solid 5px #355C7D;
 }
-.site .satir .main > .anasayfa{
-	width: 590px;
-	margin-left: 40px;
-	margin-right: 20px;
-	float:left; 
+#logosearch form #ara{
+width: 50px;
+color:white;
+font-weight: bold;
+background-color: #355C7D;
+outline: none;
+cursor: pointer;
 }
-.site .satir .main .anasayfa >  h2{
-	color:black;
-	font-family: cursive;
-	font-weight: bold;
-	text-align: center;
-	margin-bottom: 20px;
+#logosearch form #searchtxt{
+    width: 300px;
+    color:black;
+    font-weight: bold;
+    margin-right: -5px;
+    outline: none;
+    padding-left: 2px;
+    }
+.menu{
+    background-color: #355C7D;
+    width: 1024px;
+    height: 50px;
+    margin: auto;
+    border-radius: 0px 0px 10px 10px;
+}    
+.menu ul li{
+    float: left;
+    margin-left: 35px;
+    line-height: 50px;
 }
-.site .satir .main .anasayfa > h6{
-	margin-top: 30px;
-	color:black;
-	text-align: center;
-	font-weight: bold;
+.menu ul li a{
+    color:white;
+    font-weight:bold;
+    font-family: cursive;
+    padding:14px;
 }
-.site .satir .main .anasayfa > a{
-	display: block;
-	background-color: #c61701;
-	text-align: center;
-	font-size: 30px;
-	color:white;
-	text-decoration: none;
-	font-weight: bold;
-	margin-top: 10px;
-	opacity: 0.8;
+.menu ul li a:hover{
+    color:#F5D41E;
+    transition: all 0.7s;
 }
-.site .satir .main .anasayfa > a:hover{
-	opacity: 1;
+.menu ul li:hover{
+    transform:scale(0.9);
+    transition: all 0.7s;
 }
-.site .satir .main > .login{
-	float: left;
-	width: 300px;
-	margin-left: 40px;
-	margin-right: 20px;
-	text-align: center;
+.site{
+    position: relative;
+    top:80px;
+    width: 1024px;
+    height: 900px;
+    margin: auto;
 }
-.site .satir .main > .login h1{
-	color:black;
-	font-family: cursive;
+.site .sidebar{
+    position: absolute;
+    left:0;
+    width: 224px;
+    background-color: #355C7D;
+    border-radius: 10px;
 }
-.site .satir .main > .login label{
-	margin-top: 10px;
+.site .sidebar ul li{
+    border-bottom:white solid;
+    height:40px;
+    text-align: center;
 }
-.site .satir .footer {
-	height: 50px;
-	
+.site .sidebar ul li h2{
+    color:#F5D41E;
+    font-family: courier ;
+    letter-spacing: 2px;
 }
-.site .satir .footer .copyright{
-	width: 480px;
-	float: left;
-	margin-left: 32px;
+.site .sidebar ul li a{
+    color:white;
+    font-weight: bold;
+    font-family: cursive;
+    line-height: 40px;
+    display: block;
+    }
+.site .sidebar ul li a:hover{
+        transform:scale(0.9);
+        color:#F5D41E;
+        transition: all 1s;
+    }
+.site .pano1{
+    width: 224px;
+    height: 150px;
+    background-color: #355C7D;
+    position: relative;
+    top: 400px;
+    border-radius: 10px;
 }
-.site .satir .footer .copyright span{
-	color:black;
-	font-weight: bold;
-	font-family: cursive;
-	line-height: 50px;
+.site .pano1 h2{
+    font-weight: bold;
+    font-family: cursive;
+    color: white;
+    text-align: center;
+    line-height: 50px;
 }
-.site .satir .footer .sosyalmedya{
-	width: 480px;
-	float: right;
-	text-align: right;
-	margin-right: 32px;
+.site .pano2{
+    width: 224px;
+    height: 150px;
+    background-color: #355C7D;
+    position: relative;
+    top: 420px;
+    border-radius: 10px;
 }
-.site .satir .footer .sosyalmedya a{
-	line-height: 50px;
+.site .pano2 h2{
+    font-weight: bold;
+    font-family: cursive;
+    color: white;
+    text-align: center;
+    line-height: 150px;
 }
-.site .satir .footer .sosyalmedya img {
-	width: 30px;
-	height: 30px;
-	margin-left: 10px;
+.site .main {
+    width: 800px;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
-.site .satir .oyunmenu{
-	height: 50px;
-	background-color: #c61701;
+.site .main .baslik {
+    background-color: #79A7A8;
+    width: 790px;
+    margin-left: 10px;
 }
-.site .satir .oyunmenu ul >li{
-	float: left;
-	margin-left: 10px;
-	text-align: center;
+.site .main .baslik h1{
+    color:black;
+    font-family: cursive;
+    text-align: center;
+    letter-spacing: 1px;
 }
-.site .satir .oyunmenu ul >li > a{
-	display: block;
-	padding: 0px 21px;
-	line-height: 50px;
-	color:white;
-	font-weight: bold;
-	font-family: cursive;
-	background-color: #c61701;
-	text-decoration: none;
+.site .main .urun{
+    width: 146px;
+    height:175px;
+    background-color: #EDF7F5;
+    margin-top: 20px;
+    float: left;
+    margin-left: 10px;
+    border: solid 2px #C9DFF1;
+    text-align: center;
 }
-.site .satir .oyunmenu ul > li > a:hover{
-	background-color: #f8ebc7;
-	color:black;
+.site .main .urun:hover{
+    border:solid 2px #355C7D;
+    transform: scale(1.1);
+    transition: all 1s;
 }
-.site .satir .oyuncubilgi{
-	width: 1024px;
-	height: 30px;
-	background-color: #8f441e;
+.site .main .urun img{
+    height: 100px;
+    width: 146px;
 }
-.site .satir .oyuncubilgi label{
-	line-height: 30px;
-	margin-left: 5px;
+.site .main .urun hr{
+    height: 3px;
+    width: 147px;
+    background-color:#355C7D;
 }
-.site .satir .oyuncubilgi .oyuncu{
-	width: 300px;
-	float: left;
-	color:white;
-	text-align:center;
+.site .main .urun h4{
+    color:#355C7D;
+    font-weight: bold;
+    font-family: cursive;
+    text-decoration: line-through;
 }
-.site .satir .oyuncubilgi .koyadi{
-	width: 340px;
-	float: left;
-	color:white;
-	text-align: center;
+.site .main .urun h5{
+    color:#355C7D;
+    font-weight: bold;
+    font-family: cursive;
 }
-.site .satir .oyuncubilgi .oyuncuham{
-	color:white;
-	text-align: center;
+.site .main .urun h3{
+    color:#355C7D;
+    font-weight: bold;
+    font-family: cursive;
 }
-.site .satir .oyunalan{
-	width: 1024px;
-	height: 600px;
-	border:solid #8f441e 10px; 
+.site .main .baslik2{
+    background-color: #79A7A8;
+    width: 790px;
+    margin-left: 10px;
+    float: right;
+    margin-top: 40px;
 }
-.site .satir .oyunalan > .oyunsehir{
-	background-color: green;
-	width: 75%;
-	height: 100%;
-	float: left;
+.site .main .baslik2 h1{
+    color:black;
+    font-family: cursive;
+    text-align: center;
+    letter-spacing: 1px;
 }
-.site .satir .oyunalan > .oyunpanel{
-	width: 25%;
-	height: 100%;
-	background-color: #8f441e;
-	float: left;
-	color:white;
-	font-family: cursive;
-	font-weight: lighter;
-	text-align: center;
+.site footer{
+    width: 1024px;
+    height: 50px;
+    background-color:#355C7D;
+    position: absolute;
+    bottom: 0;
+    border-radius:10px 10px 0px 0px ;
 }
-.site .satir .oyunalan > .oyunpanel ul{
-	margin-left: 10px;
+.site footer .footer{
+    width: 1024px;
+    margin: auto;
 }
-.site .satir .oyunalan > .oyunpanel .pbaslik{
-	color:black;
-	background-color: #c7aa70;
-	height: 40px;
-	line-height: 40px;
+ footer .footer span{
+    color:white;
+    font-family: cursive;
+    font-weight: bold;
+    line-height: 50px;
+    float: left;
+    margin-left: 8px;
 }
-.site .satir .oyunalan > .oyunpanel ul li{
-	border: #c7aa70 4px solid; 
-	padding-top: 3px;
-	padding-bottom: 3px;
+.site footer .footer a {
+float: right;
+margin-right: 10px;
+margin-top: 10px;
 }
-.site .satir .oyunalan > .oyunpanel ul li label{
-	padding-left: 4px;
+.site footer .footer a:hover {
+        transform: scale(1.1);
+        transition: all 1s;
+    }
+.site #blogmain{
+    width: 1024px;
 }
-.site .satir .main .kayit{
-	width: 380px;
-	margin-right: 32px;
-	text-align: center;
-	font-weight: bold;
-	font-family: cursive;
-	color:black;
-	margin: auto;
-	padding-top: 10px;
+.site #blogmain h1{
+    color:black;
+    font-family: cursive;
+    text-align: center;
+    letter-spacing: 1px;
+    background-color: #79A7A8;
+    border-radius: 20px;
+    height: 50px;
 }
-.site .satir .main .kayit label{
-	margin-top: 5px;
+.site #blogmain .reklam1{
+    width: 500px;
+    height: 75px;
+    background-color:#355C7D;
+    border-radius: 10px;
+    margin-top: 30px;
+    text-align: center;
+    float: left;
+    position: relative;
 }
-.site .satir .main .kayit a{
-	margin-top: 20px;
+.site #blogmain .reklam2{
+    width: 500px;
+    height: 75px;
+    background-color:#355C7D;
+    border-radius: 10px;
+    margin-top: 30px;
+    text-align: center;
+    float: right;
+    position: relative;
 }
-.anabina{
-	width: 100px;
-	height: 50px;
-	color: white;
-	background-color: red;
-	text-align: center;
-	line-height: 50px;
-	outline: 4px solid white;
-	margin: auto;
-	position: relative;
-	top: 215px;
-	font-family: cursive;
-	font-weight: bolder;
-	font-size: 18px;
-	z-index: 1;
-	text-decoration: none;
+.site #blogmain  #reklambaslik{
+        font-family: cursive;
+        color: white;
+        font-weight: bold;
+        line-height: 75px;
 }
-.kisla{
-	width: 100px;
-	height: 50px;
-	color: white;
-	background-color: red;
-	text-align: center;
-	line-height: 50px;
-	outline: 4px solid white;
-	margin: auto;
-	position: relative;
-	left: 200px;
-	top:100px;
-	font-family: cursive;
-	font-weight: bolder;
-	font-size: 18px;
-	z-index: 1;
-	text-decoration: none;
+.site #blogmain .post{
+    width: 218px;
+    height: 300px;
+    float: left;
+    margin: 10px;
+    margin-top: 10px;
+    border: solid #C9DFF1 4px;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    padding: 5px;
 }
-.ahir{
-	width: 100px;
-	height: 50px;
-	color: white;
-	background-color: red;
-	text-align: center;
-	line-height: 50px;
-	outline: 4px solid white;
-	margin: auto;
-	position: relative;
-	top:50px;
-	right: 200px;
-	font-family: cursive;
-	font-weight: bolder;
-	font-size: 18px;
-	z-index: 1;
-	text-decoration: none;
+.site #blogmain .post img{
+    width: 100%;
+    height: 150px;
 }
-.odun{
-	width: 100px;
-	height: 50px;
-	color: white;
-	background-color: red;
-	text-align: center;
-	line-height: 50px;
-	outline: 4px solid white;
-	margin: auto;
-	position: relative;
-	top: 100px;
-	right: 200px;
-	font-family: cursive;
-	font-weight: bolder;
-	font-size: 18px;
-	text-decoration: none;
-	z-index: 1;
+.site #blogmain .post h3{
+    color:#355C7D;
+    font-weight: bold;
+    font-family: cursive;
+    text-align: center;
 }
-.kil{
-	width: 100px;
-	height: 50px;
-	color: white;
-	background-color: red;
-	text-align: center;
-	line-height: 50px;
-	outline: 4px solid white;
-	margin: auto;
-	position: relative;
-	top:50px;
-	left: 200px;
-	font-family: cursive;
-	font-weight: bolder;
-	font-size: 18px;
-	z-index: 1;
-	text-decoration: none;
+.site #blogmain .post p{
+    color:black;
+    font-family: monospace;
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 10px;
 }
-.demir{
-	width: 100px;
-	height: 50px;
-	color: white;
-	background-color: red;
-	text-align: center;
-	line-height: 50px;
-	outline: 4px solid white;
-	margin: auto;
-	position: relative;
-	top:80px;
-	font-family: cursive;
-	font-weight: bolder;
-	font-size: 14px;
-	z-index: 1;
-	text-decoration: none;
+.site #blogmain .post a{
+    color:black;
+    font-family: monospace;
+    
 }
-.depo{
-	width: 100px;
-	height: 50px;
-	color: white;
-	background-color: red;
-	text-align: center;
-	line-height: 50px;
-	outline: 4px solid white;
-	margin: auto;
-	position: relative;
-	bottom:200px;
-	font-family: cursive;
-	font-weight: bolder;
-	font-size: 14px;
-	text-decoration: none;
-	z-index: 1;
+.site #blogmain .post:hover{
+    border:solid #355C7D 4px;
+    transition: all 2s;
 }
-.duvar{
-	position: relative;
-	width: 700px;
-	height: 440px;
-	border:solid white 8px;
-	left: 30px;
-	bottom: 335px;
-	border-radius: 700px;
-	z-index: 0;
+.site .foto{
+    width: 450px;
+    float: left;
 }
-.oyunsehir > a{
-	text-decoration: none;
+.site .foto > img{
+    height: 600px;
+    width: 400px;
+    border:solid #355C7D 10px;
+    border-radius: 10px;
 }
-.oyunsehir >  a > div:hover{
-	outline: solid blue 4px;
+.site .yazi{
+    width: 500px;
+    float: left;
+    text-align: justify;
 }
-.merkez{
-	width: 100%;
-	height: 600px;
-	border: solid #8f441e 10px;
-	margin-top: 20px;
-	padding-left: 20px;
-	padding-right: 20px;
-}
-.anabinalvl{
-	width: 100%;
-	height: 100%;
-}
-#merkeztbl {
-	background-color: #8f441e;
-	color:white;
-	border:none;
-	outline:#8f441e groove 10px;
-}
-.merkez > h3 {
-	color:black;
-	font-family: cursive;
-	font-weight: bold;
-	text-align: center;
-}
-#merkeztbl th  {
-	border: none;
-}
-#merkeztbl td  {
-	border: none;
+.site .yazi > h1{
+    font-weight: initial;
+    font-family: cursive;
+    text-align: center;
 }
 .harita{
-	background-color: green;
-	width: 100%;
-	height: 500px;
-	border-radius: 20px;
-	text-align: center;
+    float: left;
+    border: solid #355C7D 4px;
 }
-.harita > h1{
-	line-height: 500px;
-	font-family: cursive;
-	font-weight: bold;
-	font-size: 48px;
-	color:black;
+.form{
+    float: left;
+    margin-left: 50px;
 }
-.rapor{
-	width: 200px;
-	height: 200px;
-	background-color: #c61701;
-	margin-top: 30px;
-	border-radius: 20px;
-	float: left;
-	margin-right: 20px;
-	margin-left: 20px;
-	text-align: center;
-	border:solid #8f441e 4px;
+.form h1{
+    color: black;
+    font-family: cursive;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
 }
-.rapor:hover{
-transform: scale(1.2);
-transition: all 1s;
+.form input{
+    width: 400px;
+    height: 35px;
+    border: solid #355C7D 4px;
+    margin-bottom: 20px;
+    padding-left: 5px;
 }
-.rapor > h4{
-	color:white;
-	font-family: cursive;
-	font-weight: bold;
-	margin-top: 20px;
+.form #textarea{
+    width: 400px;
+    height: 200px;
+    border: solid #355C7D 4px;
+    margin-bottom: 20px;
+    padding-left: 5px;
 }
-.rapor > h5{
-	color:black;
-	font-family: cursive;
-	font-weight: bold;
-	margin-top: 20px;
+.form #iletbtn{
+    width: 414px;
 }
-.rapor > h2{
-	color:black;
-	font-family: cursive;
-	font-weight: bold;
-	margin-top: 20px;
+.site .kayit {
+    width: 600px;
+    border: solid #355C7D 8px;
+    text-align: center;
+    margin: auto;
+    background-color:#355C7D ;
+    border-radius: 10px;
 }
-.sohbet{
-	text-align: center;
-	margin-top: 200px;
-	color:black;
+
+.site .kayit h1{
+    color: black;
+    font-family: cursive;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    background-color:white ;
+    line-height: 60px;
+}
+.site .kayit h3{
+    color: white;
+    font-family: cursive;
+    font-weight: bold;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+.site .kayit input{
+    width: 50%;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 4px;
+    outline: none;
+    color: black;
+    font-weight: bold;
+    padding-left: 5px;
+}
+.site .kayit #kayitdiv{
+    width: 600px;
+    background-color: white;
+}
+.site .kayit #kayitdiv #btnkayit{
+    width: 70%;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 10px;
+    outline: none;
+    color: white;
+    font-weight: bold;
+    padding-left: 5px;
+    background-color:#355C7D ;
+    font-family: cursive;
+    cursor: pointer;
 }
